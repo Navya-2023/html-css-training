@@ -23,36 +23,55 @@
         <img src="background.png"alt="background image"width="1200"height="600"  >
         <div class="text"><b>Love & Care <br> to humanity.</b></div>
         <div class="subtext">Fastest growing Multi Specility Hospital<br> in South India.</div>
-        <div class="button"><button type="button">Book an Appoinment</button></div>
+        <div class="buttontop"><button style="
+          margin-top: 0px;
+          margin-left: 0px;
+          margin-bottom: 0px;
+          margin-right: 0px;">Book an Appointment</button></div>
       </div>
-      <div class="form">
-        <div class="section1">
-          <input type="text" id="fullname" name="fullname" placeholder="Full Name"><br><br>
-          <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number "><br><br>
-          <input type="date" id="date" name="date" placeholder="Select Date">
-        </div>
-        <div class="section2">
-          <select name="Department" id="department" aria-placeholder="Department">
-            <option value="Cardiac">Cardiac</option>
-            <option value="Pediatric">Pediatric</option>
-            <option value="Gynacology">Gynacology</option>
-            <option value="Oncology">Oncology</option>
+      <div class="forms">
+        <h3 style="margin-left: 5px">Book an Appointment</h3>
+        <form>
+          <div class="rows">
+            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Phone Number" />
+            <input type="Date" placeholder="dd-mm-yyyy" />
+          </div>
+          <div class="rows">
+            <select id="department">
+              <option value="general">General Medicine</option>
+              <option value="obestrics">Obestrics and Gynaecology</option>
+              <option value="ent">ENT</option>
+              <option value="orthopaedics">Orthopaedics</option>
+              <option value="emergency">Emergency Medicine</option>
+              <option value="dermatology">Dermatology</option>
             </select>
-            <select name="Doctor" id="doctor" aria-placeholder="Doctor">
-              <option value="Meera">Dr Meera</option>
-              <option value="Femy">Dr Femy</option>
-              <option value="Akhil">Dr Akhil</option>
-              <option value="Anu">Dr Anu</option>
-              </select>
-
-              <button type="button">Book an Appoinment</button>
-
-
-          
+            <select id="doctors">
+              <option value="general">Dr P Murukesan</option>
+              <option value="obestrics">Dr Sanjay Zachariah</option>
+              <option value="ent">Dr Jacob John</option>
+              <option value="orthopaedics">Dr Raina T Pillai</option>
+              <option value="emergency">Dr Dakshina Prasad</option>
+              <option value="dermatology">Dr Sreeveena G</option>
+            </select>
+            <button class="button" type="button">Book an Appointment</button>
+          </div>
+        </form>
+      </div>
+      <div class="ourdepartments">
+        <p><b>Our<br>Departments</b></p>
+        <div class="department-cards">
+          <div class="surgey">
+            <img src="surgeryimage.png"alt="surgery image"width="539"height="327">
+            <h1>Hepatobilary Surgery</h1>
+            <p>The hepatobilary and transplantology unit of GG Hospital <br>offers a comprehensive..</p>
+          </div>
         </div>
       </div>
-      </div>
+    
+
+
       
-    </div>
+    
   </body>
 </html>
