@@ -202,7 +202,7 @@ button {
 }
 .facility-card{
   display: flex;
-}.int-cards{
+}.int1{
   flex: 1;
   width: 425px;
   height: 280px;
@@ -214,4 +214,7 @@ button {
   text-align: center;
   display: flex;
 
+}
+.int-cards{
+  display: flex;
 }
